@@ -1,0 +1,25 @@
+[
+    {
+        "id": "1",
+        "tital":"Verify Token",
+        "des":"Enter the token address and verify"
+    },
+    {
+        "id": "2",
+        "tital":"DeFi Launchpad Info",
+        "des":"Enter the launchpad information that you want to raise , that should be enter all details about your presale"
+    },
+    {
+        "id": "3",
+        "tital":"Add Additional Info",
+        "des":"Let people know who you are"
+    },
+    {
+        "id": "4",
+        "tital":"Finish",
+        "des":"Review your information"
+    }
+]
+
+
+

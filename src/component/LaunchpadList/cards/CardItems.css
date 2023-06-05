@@ -1,0 +1,236 @@
+.card-main {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    background: #FFFFFF;
+    border: 1px solid #FFDD57;
+    box-shadow: 0px 2px 12px rgba(25, 19, 38, 0.1);
+    border-radius: 32px;
+    padding: 16px;
+    z-index: 1;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_upcoming {
+    width: 95px;
+    height: 26px;
+    background: #FDFAEA;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D29813;
+    cursor: pointer;
+}
+
+.lock {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.pepe_ceo {
+    display: block;
+}
+
+.pepe_ceo h1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.85);
+    padding-bottom: none !important;
+}
+
+.pepe_ceo p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #888888;
+    margin-top: -22px;
+}
+
+.soft {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #222222;
+    line-height: 0;
+}
+
+._bnb {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FA6200;
+    line-height: 0;
+}
+
+.soft_section {}
+
+.process {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: #222222;
+    line-height: 0;
+}
+
+.ant-progress-outer {
+    margin-inline-end: unset !important;
+    padding-inline-end: unset !important;
+}
+
+.bnb_scetion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+}
+
+.bnb_scetion p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 0;
+    color: #888888;
+}
+
+.liquidity_section {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 16px;
+}
+
+.liquidity_percent {
+    display: block;
+}
+
+.liquidity_percent p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: -13px;
+}
+
+.manual_listing {
+    display: block;
+}
+
+.manual_listing p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #888888;
+    margin-bottom: -13px;
+}
+
+.sale_starts_in_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.sale_starts {
+    display: block;
+}
+
+.view_section {
+    display: flex;
+}
+
+.sale_starts p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: -12px;
+    margin-right: 5px;
+}
+
+.view_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.view_button {
+    width: 68px;
+    height: 40px;
+    background: #FFEEE3;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.45px;
+    color: #FA6200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none!important;
+}
+
+.view_button:hover {
+    color: inherit;
+}
+
+.bell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    background: #F3F3F4;
+    border: 1px solid #F3F3F4;
+    color: #000000;
+    border-radius: 16px;
+    margin-right: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    background: #F3F3F4;
+    border: 1px solid #F3F3F4;
+    color: #000000;
+    border-radius: 16px;
+    margin-right: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

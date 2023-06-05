@@ -1,0 +1,57 @@
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 148px;
+}
+.titals{
+    display: flex;
+}
+.number.active{
+    background: #FA6200;
+    border: 1px solid #FA6200;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    margin-right: 5px;
+    padding: 6px 10px;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+.number{
+    border: 1px solid #FA6200;
+    border-radius: 32px;
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+    padding: 6px 10px;
+    margin-left: -5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.createLaunchPad{
+    background: #F5F5F5;
+   padding-top: 3rem !important;
+   margin-bottom: 1rem !important;
+
+}
+.titals h2{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: rgba(34, 34, 34, 0.85);
+}
+.desc{
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: rgba(0, 0, 0, 0.45);
+
+}

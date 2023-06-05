@@ -1,0 +1,103 @@
+aside.ant-layout-sider.ant-layout-sider-dark {
+    background: #fff;
+    height: calc(100vh - 66px) !important;
+    overflow: scroll !important;
+}
+.sliderr{
+    display: flex;
+}
+.inner-sidebar{
+    height: 64px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-sidebar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    outline: unset;
+    height: 42px;
+    margin: 12px;
+    padding: 20px 16px;
+    background: #F3F3F4;
+    border: 1px solid #F3F3F4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    /* line-height: 19px; */
+
+
+color: #222222;
+}
+.btn svg{
+    font-size: 24px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    line-height: 19px;
+}
+.connect{
+    background: #FDEAF1;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px 16px;
+    letter-spacing: 0.48px;
+    color: #F95997;
+}
+span.ant-menu-title-content {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    
+    color: #FA6200;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background: #FFEEE3;
+    border-radius: 0px;
+}
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: unset;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    aside.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed {
+        width: 0px !important;
+        min-width: 0px !important;
+        max-width: 0px !important;
+    }
+    aside.ant-layout-sider.ant-layout-sider-dark {
+        position: absolute;
+    }
+    /* :where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+        width: 0px;
+    } */
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
+    background: #FFEEE3 !important;
+    border-radius: 0px !important;
+    color: #FA6200 !important;
+}
+main.ant-layout-content.css-dev-only-do-not-override-yp8pcc {
+    height: calc(100vh - 66px) !important;
+    overflow: scroll !important;
+}

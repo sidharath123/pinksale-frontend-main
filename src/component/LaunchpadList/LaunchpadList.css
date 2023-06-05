@@ -1,0 +1,93 @@
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.sub_container {
+    display: block;
+}
+
+.heading h1 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.all_launchpad_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.launchpad_items a {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 16px;
+    text-decoration: none;
+    color: unset;
+    padding: 12px 0;
+
+}
+
+.activeMode {
+    border-bottom: 2px solid #FA6200;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FA6200;
+    transition: all 0.3s;
+}
+
+.main_input_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_input_box input {
+    width: 539px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 59px;
+    margin-top: 1.2rem;
+}
+.fillterVal{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 4px;
+}
+.subFillterVal{
+    display: flex;
+    flex-direction: column;
+}
+.subFillterVal label{
+    margin-left: 6px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+.fillterVal div div{
+    width: 120px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 2px;
+    margin-left: 4px;
+
+}
+.card_Item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,152 @@
+.create_lock_main {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.required {
+    margin-bottom: -10px;
+}
+
+.address_token p {
+    margin-bottom: 4px;
+}
+
+.para p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.pinklock_audited_section {
+    width: 100%;
+    display: block;
+    background: #E1FFFD;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.pinklock_audited_section p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.image_section {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.bg_black {
+    background: #000 !important;
+    padding: 2px;
+}
+
+.bg_change {
+    background: #3298dd !important;
+    padding: 2px;
+}
+
+.bg_white {
+    background-color: #fff !important;
+}
+
+.inner_image_section {
+    margin-right: 8px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.ant-picker.css-dev-only-do-not-override-yp8pcc {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+.amount_section {
+    position: relative;
+}
+
+.amount_max {
+    position: absolute;
+    top: -8px;
+    right: 8px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FA6200;
+}
+
+.pinklock_address_bottom {
+    width: 100%;
+    padding: 10px;
+    background: #FFFBE6;
+    border: 1px solid #FFE799;
+    border-radius: 4px;
+    margin-top: 14px;
+}
+
+.pinklock_address_bottom p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+button.pinklock_icon {
+    border: unset;
+    background: unset;
+}
+
+.pinklock_icon img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+
+
+.ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    margin-top: 5px;
+}
+.amount_label .ant-col.ant-form-item-label {
+    margin: 9px 0px !important;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+
+color: rgba(0, 0, 0, 0.85);
+}

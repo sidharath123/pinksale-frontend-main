@@ -1,0 +1,42 @@
+.card-images{
+    width: 75px !important;
+    margin: auto;
+    padding-top: 25px;
+}
+.mainCardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 12px; */
+}
+.mainCardContainer .ant-card{
+    /* margin-top: 12px;     */
+    margin: 12px 7px;
+
+}
+.ant-card-body {
+    text-align: center;
+}
+.ant-card {
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ant-card-meta-title {
+    color: rgba(34, 34, 34, 0.85);
+    font-weight: 600;
+    font-size: 28px!important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Segoe UI';
+}
+
+.ant-card-meta-description {
+    color: #888888;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Segoe UI';
+}

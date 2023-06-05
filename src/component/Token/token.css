@@ -1,0 +1,55 @@
+.token_main {
+    width: 100%;
+    display: block;
+    background: #ffffff;
+    opacity: 0.8;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .all_my_lock {
+    width: 100%;
+    display: flex;
+  }
+  
+  .token_tab .ant-tabs-nav-list {
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .main-contaiober {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .amount-txt {
+    margin-left: 180px; 
+    margin-top: 10px;
+  }
+  
+  .view-txt {
+    margin-left: 380px; 
+    margin-top: 6px;
+  
+  }
+  .text {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    font-style: bold;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+  
+    color: #222222;
+  }
+  .pagination{
+      display: flex;
+      justify-content: center;
+  }
+  

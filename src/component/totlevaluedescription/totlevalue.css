@@ -1,0 +1,34 @@
+.totle_description_container{
+    width: 100%;
+    /* background-color: grey; */
+    padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.item_description{
+    width: 220px;
+    height: 192px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+.item_description h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+}
+
+.item_description p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}

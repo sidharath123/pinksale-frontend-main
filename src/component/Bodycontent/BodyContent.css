@@ -1,0 +1,52 @@
+.tag{
+margin: auto;
+background-color: rgb(255 255 255);
+padding: 2px 0;
+}
+
+.tag ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+}
+.tag-no{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #222222;
+}
+.tag-name, .trending-icon{
+margin-left: 3px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #FA6200;
+}
+
+.trending-name{
+    text-decoration: none;
+    color: #222222;
+    font-size: 13px;
+}
+
+.launchepad_section{
+    margin: auto;
+    width: 100vw;
+    background-color: #FA6200;
+    padding: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+
+    .nav-ul{
+        overflow-y: scroll ;
+    }
+    .dis-none{
+        display: none;
+    }
+    
+}

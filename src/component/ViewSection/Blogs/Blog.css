@@ -1,0 +1,150 @@
+
+
+.view_main{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+
+.view_details_left_main{
+    width: 70%;
+    display: block;
+    background-color: #faf9fa;
+}
+
+.view_details_left{
+    width: 100%;
+    padding: 14px;
+    display: flex;
+}
+
+.view_details_right{
+    width: 30%;
+    display: block;
+    margin-left: 20px;
+}
+
+.view_content_left{
+    width: 10%;
+}
+
+.view_content_right{
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view_content_left_image{
+    width: 60px;
+    height: 60px;
+    margin-top: -2px;
+}
+
+.view_content_left_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.audit_section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.audit_section h2{
+   margin-top: -2px;
+   font-size: 26px;
+}
+
+.icon_section{
+    display: flex;
+    margin-top: -25px;
+}
+
+/* flex */
+
+
+._flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+._flex li {
+    list-style-type: none;
+    color: #f95192;
+}
+
+._flex li a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sale_live_button_section{
+    background-color: transparent;
+    width: 48%;
+
+}
+
+.sale_live_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heartbtnholder{
+     display: flex;
+     align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc) a {
+    color: #FA6200;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc) a:hover {
+    color: #FA6200;
+}
+
+.para{
+    padding: 0 18px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 30px 0;
+    margin: auto;
+  }
+
+  th, td {
+    padding: 12px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+  }
+
+  /* CARD ITEM */
+
+.card_item_one{
+   width: 100%;
+   background-color: #faf9fa;
+   border: 1px solid #ffdd57;
+   border-radius: 5px;
+   padding: 7px;
+   display: block; 
+}
+
+.paragrapah_top p{
+    width: 100%;
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+
+.paragrapah_top p{
+    width: 100%;
+    padding: none;
+    text-align: center;
+    background-color: #ffe799;
+}

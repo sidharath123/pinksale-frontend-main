@@ -1,0 +1,53 @@
+[
+{
+    "id": 1,
+    
+    "tital":"Standard",
+    "dis":"Mint standard tokens on ETH, BSC, AVAX, Fantom, Polygon."
+},
+{
+    "id": 2,
+    
+    "tital":"Deflationary",
+    "dis":"Generate deflationary tokens with tax and/or charity functions."
+},
+{
+    "id": 3,
+    
+    "tital":"Customization",
+    "dis":"Create a token sale for your own custom token easily."
+},
+{
+    "id": 4,
+    
+    "tital":"Launchpad",
+    "dis":"Use the token you mint to create a launchpad with just a few clicks"
+},
+{
+    "id": 5,
+    
+    "tital":"Branding",
+    "dis":"Adding logo, social links, description, listing on PinkSale."
+}
+,
+{
+    "id": 6,
+    
+    "tital":"Management",
+    "dis":"The portal to help you easily update content for your launchpad."
+}
+,
+{
+    "id": 7,
+    
+    "tital":"Community",
+    "dis":"Promote your launchpad to thousands of buyers on PinkSale."
+}
+,
+{
+    "id": 8,
+    
+    "tital":"Locking",
+    "dis":"Lock your liquidity to PinkSwap, PancakeSwap after presale."
+}
+]

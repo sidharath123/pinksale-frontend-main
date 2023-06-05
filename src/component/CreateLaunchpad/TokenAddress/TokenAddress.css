@@ -1,0 +1,130 @@
+.required {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 157% */
+
+
+    /* primary clr */
+
+    color: #FA6200;
+
+}
+
+.sub-container {
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    border-radius: 4px;
+    padding: 12px 18px;
+    margin-bottom: 60px;
+    margin-top: 16px;
+}
+
+.address_token {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address_token p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.85);
+}
+
+
+.address_token button {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+    border-radius: 4px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 12px;
+    color: #555555;
+}
+
+.inputBox input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #FA6200;
+    box-shadow: 0px 0px 4px 2px rgba(250, 98, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.pool {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #3298DC;
+}
+
+.chechboxDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.chechboxDiv .ant-checkbox-wrapper {
+    margin-inline-start: unset;
+}
+
+.currency {
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.85);
+
+}
+
+.req-footer {
+    background: #FFFBE6;
+    border: 1px solid #FFE799;
+    border-radius: 4px;
+    margin-top: 21px;
+}
+
+.req-footer p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    color: #222222;
+    margin: 5px;
+}
+
+.nextBtn {
+   text-align: center;
+   margin: 14px 0px;
+   
+}
+
+.nextBtn button {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 5px 13px;
+    cursor: pointer;
+    
+}
+
+.create_toukan{
+    cursor: pointer;
+}

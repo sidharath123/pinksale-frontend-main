@@ -1,0 +1,14 @@
+.footer{
+    padding-bottom: 40px;
+}
+.footer p {
+    text-align: center;
+    padding: 0px 97px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer span {
+    color: #FA6200;
+}
