@@ -25,6 +25,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 20px;
 color: #FA6200;
+
 }
 
 .trending-name{
@@ -40,13 +41,19 @@ color: #FA6200;
     padding: 50px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 800px) {
-
     .nav-ul{
-        overflow-y: scroll ;
+        width: 100%;
+        overflow-x: scroll ;
     }
+
+@media(max-width: 600px) {
     .dis-none{
         display: none;
     }
+    .nav-ul li:nth-child(1){
+      
+        display: none;
+        
+        }
     
 }

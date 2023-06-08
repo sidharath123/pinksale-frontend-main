@@ -1,55 +1,89 @@
-.token_main {
-    width: 100%;
-    display: block;
-    background: #ffffff;
-    opacity: 0.8;
-    border: 1px solid #f0f0f0;
-    border-radius: 4px;
-    padding: 20px;
-    display: flex;
-  }
+.container {
+  /* Rectangle */
+  margin-top: 50px;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1131px;
+  height: 858px;
+  left: 495px;
+  top: 173px;
+
+  background: #ffffff;
+  opacity: 0.8;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  margin-top: 50px;
+ 
+}
+
+
+/* .box{
+    box-sizing: border-box;
+    border-style: solid;
+position: absolute;
+width: 1046px;
+height: 35px;
+left: 533px;
+top: 212px;
+padding: -10px;
+border-width: 5px;
+border-style: groove;
+} */
+
+.input {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 10px;
   
-  .all_my_lock {
-    width: 100%;
-    display: flex;
-  }
-  
-  .token_tab .ant-tabs-nav-list {
-    flex: 1;
-    justify-content: space-between;
-    display: flex;
-  }
-  
-  .main-contaiober {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-  }
-  
-  .amount-txt {
-    margin-left: 180px; 
-    margin-top: 10px;
-  }
-  
-  .view-txt {
-    margin-left: 380px; 
-    margin-top: 6px;
-  
-  }
-  .text {
-    margin-top: 8px;
-    margin-left: 10px;
-    font-family: "Segoe UI";
-    font-style: bold;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-    /* identical to box height, or 157% */
-  
-    color: #222222;
-  }
-  .pagination{
-      display: flex;
-      justify-content: center;
-  }
-  
+
+}
+
+.left-col img{
+margin-right: 10px;
+}
+
+.table {
+  margin-top: 70px;
+  padding: 10px;
+}
+.AllMyLock{
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    left: 60%; 
+}
+.All{
+   position: absolute;
+width: 18px;
+height: 22px;
+left: 1490px;
+top: 263px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: right;
+
+/* primary clr */
+
+color: #FA6200;
+
+}
+
+
+
+@media(min-width:360px){
+
+    .container {
+        justify-content: space-between;
+        display: flex;
+      }
+}

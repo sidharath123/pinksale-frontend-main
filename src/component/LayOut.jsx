@@ -52,7 +52,7 @@ const Navbar = () => {
                 <Route path="createtoken" element={<CreateToken />} />
                 <Route path="launchpadlist" element={<LaunchpadList />} />
                 <Route path="createlock" element={<CreateLock/>} />
-                <Route path="token" element={<Token/>} />
+                <Route path="/token" element={<Token/>} />
                 <Route path="/lauchpadlist/item-number" element={<Blog/>} />
                 <Route path="/liquidity" element={<Liquidity/>} />
                 

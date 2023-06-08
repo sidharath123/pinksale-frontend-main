@@ -86,10 +86,42 @@ span.ant-menu-title-content {
     }
     aside.ant-layout-sider.ant-layout-sider-dark {
         position: absolute;
+        z-index: 2;
     }
     /* :where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
         width: 0px;
     } */
+    .connect {
+        background: #FDEAF1;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        padding: 10px 4px;
+        letter-spacing: 0.48px;
+        color: #F95997;
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        outline: unset;
+        height: 42px;
+        margin: 12px;
+        padding: 15px 0px;
+        background: #F3F3F4;
+        border: 1px solid #F3F3F4;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        align-items: center;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        /* line-height: 19px; */
+        color: #222222;
+    }
 }
 
 :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-yp8pcc).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {

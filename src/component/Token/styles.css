@@ -1,0 +1,11 @@
+.AllMyLock .ant-tabs-nav-wrap{
+    justify-content: end;
+}
+
+
+.AllMyLock  .ant-tabs-ink-bar {
+    background-color: #FA6200;
+}
+.AllMyLock .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color:#FA6200 !important;
+}
