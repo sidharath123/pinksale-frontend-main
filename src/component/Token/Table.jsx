@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image, Table,  } from "antd";
-import emoji from '../../Images/emoji.png'
+import emoji from '../../Images/emoji.png';
+
 const TableCom = () => {
     const columns = [
         {
@@ -45,7 +46,7 @@ const TableCom = () => {
           </div>
           </div>,
 
-          age: "210,652,302,305,930,804,184.1214",
+          age: "210,652,302,305",
           address: "View",
         },
         {
@@ -168,6 +169,7 @@ const TableCom = () => {
   return (
        <div className="table">
         <Table columns={columns} dataSource={data} size="middle" />
+        
       </div>
   )
 }

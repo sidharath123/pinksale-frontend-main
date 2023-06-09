@@ -6,6 +6,8 @@ import Footer from '../footer/Footer';
 const CreateToken = () => {
     const [form] = Form.useForm();
 
+    
+
     return (
         <>
             <div className='createLaunchPad'>
@@ -57,7 +59,7 @@ const CreateToken = () => {
                             </div>
                         </div>
                     </div>
-                    <Footer/>
+                    {/* <Footer/> */}
                 </div>
             </div>
         </>

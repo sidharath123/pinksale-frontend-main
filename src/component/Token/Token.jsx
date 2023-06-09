@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, Table, Tabs } from "antd";
+
 import emoji from '../../Images/emoji.png'
 ///styles
 import './styles.css'
@@ -33,9 +34,10 @@ const Token = () => (
       <div className="AllMyLock" >
       <Tabs defaultActiveKey="1" items={items}  />
       </div>
-
+      
      
       </div>
+      
     </div>
   </>
 );

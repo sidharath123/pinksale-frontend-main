@@ -83,6 +83,10 @@ span.ant-menu-title-content {
         width: 0px !important;
         min-width: 0px !important;
         max-width: 0px !important;
+        display: flex;  
+        flex-wrap: wrap;
+        flex-direction: column;
+
     }
     aside.ant-layout-sider.ant-layout-sider-dark {
         position: absolute;

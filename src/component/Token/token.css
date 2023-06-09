@@ -5,7 +5,7 @@
   box-sizing: border-box;
 
   position: absolute;
-  width: 1131px;
+  width: 100%s;
   height: 858px;
   left: 495px;
   top: 173px;
@@ -85,5 +85,10 @@ color: #FA6200;
     .container {
         justify-content: space-between;
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-wrap: wrap;
+
       }
 }

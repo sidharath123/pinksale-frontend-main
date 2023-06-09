@@ -1,16 +1,33 @@
 import React, { useEffect, useState } from 'react'
 import { AiOutlineLineChart } from "react-icons/ai"
 import '../Navbar.css';
+import './topnav.css'
 import logoImg from '../../Images/logo.png'
 import bscImg from '../../Images/BSC.png'
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
 } from '@ant-design/icons';
-import { Button, Layout, Menu, theme } from 'antd';
+import { Button, Layout, Menu, theme ,Form,Modal} from 'antd';
+// import CreateToken from '../CreateToken/CreateToken';
+import BscMainNet from '../BscMainNet/BscMainNet';
 
 const TopNav = (props) => {
+//  this is for model
+  const [modelCreated, setModelCreated] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
+  const [ isOpen,setIsopen] =useState(false)
+  const [form] = Form.useForm();
+
+
+
+  const modalHandle = ()=>{
+    setIsopen(true)
+  }
+  const modalHandleCancel = ()=>{
+    setIsopen(false)
+  }
+
   const {
     token: { colorBgContainer },
   } = theme.useToken();
@@ -21,6 +38,18 @@ const TopNav = (props) => {
   
   return (
     <>
+
+      
+    <Modal
+    width={550}
+     open={isOpen}
+      footer={null}
+      onCancel={modalHandleCancel}>
+        <div className="_parent">
+        <BscMainNet/>
+        </div>
+      </Modal>
+
       <div className='sliderr'>
         <Button
           type="text"
@@ -39,8 +68,12 @@ const TopNav = (props) => {
           </div>
           <div>
             <button className='btn'><AiOutlineLineChart />  <span style={{ marginLeft: "5px" }}>dexview.com</span></button>
-            <button className='btn'><span><img src={bscImg} alt="" width="24px" style={{ marginRight: "8px" }} /></span><span className='dis-none'>BSC MAINNET</span></button>
-            <button className='btn connect'><span>CONNECT</span></button>
+            <button className='btn' onClick={modalHandle}><span><img src={bscImg} alt="" width="24px" style={{ marginRight: "8px" }}  /></span><span className='dis-none'>BSC MAINNET</span>
+            {modelCreated && <p>Model created successfully!</p>}
+            </button>
+            <button className='btn connect' onClick={modalHandle}><span>CONNECT</span>
+            {modelCreated && <p>Model created successfully!</p>}
+            </button>
           </div>
         </div>
       </div>
