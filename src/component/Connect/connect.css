@@ -1,0 +1,67 @@
+.bsc_testnet_modal{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.chhose_network_container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 14px; */
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+.ant-modal-content {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+    padding: 0!important;
+}
+
+.chhose_network_container{
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.network_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: .8rem;
+    flex-wrap: wrap;
+}
+
+.network_item_content{
+    width: 236px;
+    height: 113px;
+    border-radius: 3px;
+    display: block;
+    background-color: #F95997;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+._imgheight{
+height: 50px;
+width: 50px;
+overflow: hidden;
+margin: auto;
+text-align: center;
+}
+
+._imgheight img{
+    width: 100%;
+}
+
+._imgtext{
+    text-align: center;
+}

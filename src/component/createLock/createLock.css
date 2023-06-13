@@ -150,3 +150,16 @@ line-height: 22px;
 
 color: rgba(0, 0, 0, 0.85);
 }
+
+@media(max-width:500px){
+   .button.pinklock_icon{
+    font-size: 8px;
+
+    }
+    
+    .inner_image_section {
+        margin-right: 8px;
+        border-radius: 5px;
+        height: 9px;
+    }
+}
